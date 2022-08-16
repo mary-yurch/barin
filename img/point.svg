@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <filter id="point" x="0" y="0" width="20" height="20" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.231"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="point_hover" x="1" y="1" width="18" height="18" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-opacity="0.231"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="point-2" data-name="point" transform="translate(3 2)">
+    <g transform="matrix(1, 0, 0, 1, -3, -2)" filter="url(#point)">
+      <g id="point-3" data-name="point" transform="translate(3 2)" fill="#53b374" stroke="#fff" stroke-width="1">
+        <circle cx="7" cy="7" r="7" stroke="none"/>
+        <circle cx="7" cy="7" r="6.5" fill="none"/>
+      </g>
+    </g>
+    <g id="hover" transform="translate(-545 -685)" opacity="0">
+      <g transform="matrix(1, 0, 0, 1, 542, 683)" filter="url(#point_hover)">
+        <circle id="point_hover-2" data-name="point_hover" cx="6" cy="6" r="6" transform="translate(4 3)" fill="#53b374"/>
+      </g>
+      <path id="home" d="M2.834,33.252.96,34.823v1.7a.164.164,0,0,0,.163.165l1.139,0a.164.164,0,0,0,.162-.166v-.99a.164.164,0,0,1,.163-.165h.65a.164.164,0,0,1,.163.165v.989a.167.167,0,0,0,.047.117.161.161,0,0,0,.115.049l1.138,0a.164.164,0,0,0,.163-.165v-1.7l-1.873-1.57A.122.122,0,0,0,2.834,33.252ZM5.792,34.32l-.849-.713V32.174a.123.123,0,0,0-.122-.124H4.252a.123.123,0,0,0-.122.124v.751l-.91-.762a.481.481,0,0,0-.62,0L.029,34.32a.126.126,0,0,0-.016.175l.259.321a.12.12,0,0,0,.172.017l2.39-2a.122.122,0,0,1,.155,0l2.39,2a.12.12,0,0,0,.172-.017l.259-.321a.126.126,0,0,0-.017-.175Z" transform="translate(549.015 657.95)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

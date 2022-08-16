@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53.053" height="63.738" viewBox="0 0 53.053 63.738">
+  <defs>
+    <filter id="map-marker-alt" x="0" y="0" width="53.053" height="63.738" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.391" y1="0.832" x2="0.632" y2="0.424" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff8a4c"/>
+      <stop offset="1" stop-color="#ec651d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.378" y1="0.346" x2="0.766" y2="1" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="0.391" y1="0.832" x2="-0.146" y2="1.069" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="0.804" y1="0.858" x2="0.045" y2="0.19" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="0.946" y1="0.869" x2="-0.149" y2="-0.107" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="icon_27" transform="translate(-1225.5 -347.5)">
+    <g transform="matrix(1, 0, 0, 1, 1225.5, 347.5)" filter="url(#map-marker-alt)">
+      <path id="map-marker-alt-2" data-name="map-marker-alt" d="M14.38,41.875C2.251,24.293,0,22.488,0,16.027a16.027,16.027,0,0,1,32.053,0c0,6.462-2.251,8.266-14.38,25.849A2,2,0,0,1,14.38,41.875ZM16.027,22.7a6.678,6.678,0,1,0-6.678-6.678A6.678,6.678,0,0,0,16.027,22.7Z" transform="translate(10.5 7.5)" fill="#fff" stroke="#ff8a4c" stroke-width="3"/>
+    </g>
+    <ellipse id="Эллипс_123" data-name="Эллипс 123" cx="11" cy="11.5" rx="11" ry="11.5" transform="translate(1241.027 359.369)" fill="#fff"/>
+    <g id="Сгруппировать_9289" data-name="Сгруппировать 9289" transform="translate(1238.456 364.197)">
+      <path id="Вычитание_2" data-name="Вычитание 2" d="M4.877,6.914H0L6.914,0,9.353,2.439,4.877,6.914Z" fill="url(#linear-gradient)"/>
+      <path id="Вычитание_3" data-name="Вычитание 3" d="M9.35,6.911H4.473L0,2.439,2.439,0,9.349,6.91Z" transform="translate(4.489 0.003)" fill="url(#linear-gradient-2)"/>
+      <path id="Вычитание_5" data-name="Вычитание 5" d="M0,6.611,6.611,0,9.05,2.438,1.386,10.1Z" transform="translate(9.267 0.007)" fill="url(#linear-gradient)"/>
+      <path id="Вычитание_6" data-name="Вычитание 6" d="M3.449,10.572H0V3.449L3.449,0V10.571Z" transform="translate(8.972 3.473)" fill="url(#linear-gradient-4)"/>
+      <path id="Вычитание_7" data-name="Вычитание 7" d="M0,3.491,6.611,10.1,9.05,7.664,1.386,0Z" transform="translate(22.456 10.109) rotate(180)" fill="url(#linear-gradient-5)"/>
+      <path id="Вычитание_8" data-name="Вычитание 8" d="M3.449,0H0V7.123l3.449,3.448V0Z" transform="translate(22.75 14.044) rotate(180)" fill="url(#linear-gradient-6)"/>
+    </g>
+  </g>
+</svg>
